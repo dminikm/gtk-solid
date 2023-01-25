@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "checkJs": true,
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "lib": [
+      "ES6",
+      "DOM"
+    ],
+    "module": "CommonJS",
+    "noImplicitAny": true,
+    "declaration": true,
+    "sourceMap": true
+  }
+}

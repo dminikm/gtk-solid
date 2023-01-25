@@ -1,0 +1,22 @@
+{
+  "name": "gtk-renderer",
+  "private": "true",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc -b",
+    "watch": "tsc -b -w"
+  },
+  "dependencies": {
+    "node-gtk": "^0.11.0",
+    "solid-js": "^1.6.9"
+  },
+  "exports": {
+    ".": "./dist/index.js",
+    "./jsx-runtime": {
+      "import": {
+        "types": "./jsx-runtime.d.ts"
+      }
+    }
+  }
+}

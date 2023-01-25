@@ -1,0 +1,4 @@
+{
+  "name": "@types/node-gtk",
+  "types": "index.d.ts"
+}
